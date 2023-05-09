@@ -18,6 +18,12 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/ImageScrollbar.jsx",
+    "components/ImageScrollbar.jsx"
+  ],
   "exclude": ["node_modules"]
 }
